@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='outer'>
         <nav className='navbar'>
             <div className='logo'>
                 <img src='assets/hedesha_logo.png' alt='hedesha logo'/>

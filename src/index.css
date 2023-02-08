@@ -12,32 +12,48 @@ code {
     monospace;
 }
 
+.hero{
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1579034963892-388c821d1d9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+}
+
+.outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar{
   padding-top: 4px;
-  background-color: brown;
+  background-color: transparent;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 90em;
 }
 
 .logo{
   display: flex;
   margin-bottom: 7px;
+  font-size: 19px;
 }
 
 .logo a{
   text-decoration: none;
-  color: #eee;
+  color: #000;
 }
 
 .logo img{
-  margin-left: 10px;
   margin-right: 10px;
   justify-content: start;
-  height: 60px;
+  height: 70px;
 }
 
 .right{
   display: flex;
+  margin-right: 20px;
 }
 
 .right li{
@@ -45,13 +61,15 @@ code {
 }
 
 .right a{
-  color: #eee;
+  color: #000;
   text-decoration: none;
   padding-right: 40px;
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .right a:hover {
-  color: #fff;
-  font-weight: 500;
+  color: #000;
+  font-weight: 900;
+  cursor: pointer;
 }
