@@ -15,7 +15,7 @@ code {
 .hero{
   min-height: 100vh;
   min-width: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1579034963892-388c821d1d9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-image: url("https://images.unsplash.com/photo-1511578000813-99a40905e89f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
 }
 
@@ -26,10 +26,11 @@ code {
 }
 
 .navbar{
-  padding-top: 4px;
-  background-color: transparent;
+  padding-top: 8px;
+  background-color: rgba(13, 9, 92, 0.3);
   display: flex;
   align-items: center;
+  padding-left: 10px;
   justify-content: space-between;
   width: 90em;
 }
@@ -42,13 +43,14 @@ code {
 
 .logo a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .logo img{
   margin-right: 10px;
   justify-content: start;
   height: 70px;
+  border-radius: 10px;
 }
 
 .right{
@@ -61,15 +63,46 @@ code {
 }
 
 .right a{
-  color: #000;
+  color: #eee;
   text-decoration: none;
   padding-right: 40px;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .right a:hover {
-  color: #000;
-  font-weight: 900;
+  color: #fff;
+  font-weight: 700;
   cursor: pointer;
+}
+
+.container{
+  margin: auto;
+  max-width: 170vh;
+  min-height: 80vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container h1{
+  font-size: 50px;
+  margin: 0;
+}
+
+.container h3{
+  font-size: 24px;
+  margin: 0;
+}
+
+hr{
+  color: #fff;
+  background-color:#fff;
+  margin: auto;
+  max-width: 180vh;
+  border-width: 0;
+  height: 2px;
 }
